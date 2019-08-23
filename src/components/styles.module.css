@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css?family=Hepta+Slab:400,600,900&display=swap');
+
+.appContainer {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    top: 0;
+}
+
+/*Menu Styles*/
+
+.menuContainer {
+    background-color: black;
+    color: white;
+    height: 15%;
+    text-align: center;
+    position: relative;
+}
+
+.menuContainer button {
+    background-color: transparent;
+    color: #d2d2d2;
+    border: 2px solid #d2d2d2;
+    border-radius: 5px;
+    margin: 5px 8px;
+    padding: 8px;
+    cursor: pointer;
+    width: 150px;
+}
+
+.menuContainer button:hover {
+    color: white;
+    border-color: white;
+}
+
+.menuContainer button:disabled {
+    color: grey;
+    border-color: grey;
+    cursor: default;
+}
+
+.winner {
+    font-size: 16px;
+    font-weight: 800;
+    padding-top: 10px;
+}
+
+.deckContainer {
+    text-align: center;
+    
+    background-color: green;
+    height: 85%;
+}
+
+/*Logo Styles*/
+
+.pokerTitle {
+    display: inline-block;
+
+    font-family: 'Hepta Slab',serif;
+    text-align: center;
+
+    margin: 0;
+    padding: 10px 0 50px 0;
+
+    width: 500px;
+}
+
+.pokerTitle .poker {
+    text-align: center;
+
+    font-size: 38px;
+    font-weight: 900;
+    color: red;
+    letter-spacing: 5px;
+}
+
+.pokerTitle .in {
+    display: inline-block;
+    text-align: center;
+
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+
+    width: 180px;
+    margin: 0;
+}
+
+.pokerTitle .react {
+    text-align: center;
+
+    font-size: 38px;
+    font-weight: 900;
+    color: #61dafb; 
+
+    padding-bottom: 10px;
+    border-bottom: 4px solid black;
+    letter-spacing: 5px;
+
+}
+
+/*separator*/
+
+.separator {
+    height: 100px;
+}
+
+/*Hand Styles*/
+
+.handContainer {
+    padding: 0;
+    margin: 0 auto;
+    width: 500px;
+    list-style: none;
+    
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    
+    -webkit-flex-flow: row wrap;
+    justify-content: center;
+}
+  
+.handItem {
+    cursor: pointer;
+}
+
+.cardContainer {
+    position: relative;
+    padding: 0;
+}
+
+.checkedMask {
+    position: absolute;
+    top: 0;
+    right: 10px;
+
+    color: red;
+    font-weight: 800;
+    font-size: 1.5em;
+}
+
+.backMask {
+    position: absolute;
+    top: 0;
+}
