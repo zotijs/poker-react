@@ -1,4 +1,8 @@
-#Simple Poker Game using React and Redux
+# Simple Poker Game using React and Redux
+
+Also deployed at [Heroku](https://agile-wave-46974.herokuapp.com/)
+
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
